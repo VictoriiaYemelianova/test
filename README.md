@@ -1,6 +1,13 @@
+# Application created with two folder client and server, to separate BE and FE.
+
 # Client
 
-## Development server
+Builded with angular cli tool, and exist in `client` folder.
+To work with client application, don't forgot to open `client` folder in terminal
+before commant running.
+To install dependencies run `npm i` before start.
+
+## Development angular app
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -11,9 +18,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 # Server
 
+Simple Node.js application, exist in `server` folder.
+To work with server application, don't forgot to open `server` folder in terminal.
+
 To use this project locally, 
 run: `npm i` to install the packages
-and to start the server run: `npm sstart`
+and to start the server run: `npm start`
 
 ## Start from docker
 
