@@ -1,0 +1,34 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #212529;
+}
+
+.title  {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+button {
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  background: #3f216c;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #5d4385;
+  }
+}

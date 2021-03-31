@@ -1,0 +1,11 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#a284ba, #3f216c);
+
+  .app-content {
+    max-width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}

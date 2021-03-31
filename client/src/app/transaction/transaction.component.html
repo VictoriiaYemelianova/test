@@ -1,0 +1,22 @@
+<div class="container">
+  <div>
+    <div class="title">Transaction viewing</div>
+
+    <div class="transactions-container">
+      <div class="table-header">
+        <div *ngFor="let item of headerList">
+         <span class="sub-title">{{ item }}</span>
+        </div>
+      </div>
+      <div *ngFor="let item of transactionList" class="table-body">
+        <div>{{ item.product.productName }}</div>
+        <div>{{ item.product.shortDescription }}</div>
+        <div>{{ item.price }}$</div>
+        <div>{{ item.shippingOption }}</div>
+        <div>
+          <img src="assets/close-button.svg" alt="" (click)="onCancel(item)">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

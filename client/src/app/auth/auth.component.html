@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="login">
+    <div class="title">{{ 'sing in' | uppercase }}</div>
+  
+    <div class="input-block">
+      <div class="icon">
+        <img src="assets/user.svg" alt="">
+      </div>
+      <input type="text" [(ngModel)]="username" placeholder="Name">
+    </div>
+  
+    <div class="input-block">
+      <div class="icon">
+        <img src="assets/padlock.svg" alt="">
+      </div>
+      <input type="password" [(ngModel)]="passworord" placeholder="Password">
+    </div>
+  
+    <button (click)="signin()">singin</button>
+  </div>
+</div>
